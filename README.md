@@ -22,7 +22,7 @@ The application guards against errors in that if an invalid file name is used th
    mvn package
    
 (iii) Test the application by running the jar file from the command-line:
-    java -cp <path-to-target>/random-numbers-and-files-0.0.1-SNAPSHOT.jar AppDriver
+    java -cp [path-to-target]/random-numbers-and-files-0.0.1-SNAPSHOT.jar AppDriver
     
 
 (iv) test the interactive command-line menu options including situations with invalid file names to make sure errors handled correctly.  Ensure that the files are properly created and view the files to check that a million whitespace-delimited random numbers are created.  In case of menu options "2" and "3" ensure that the random numbers (whitespace-delimited) are in ascending order.
