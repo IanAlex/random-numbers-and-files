@@ -11,7 +11,7 @@ The application assumes that random numbers generated will be unbounded integers
 The application guards against errors in that if an invalid file name is used then an exception will be thrown and a message outputted.  If transferring from one file to another there is a safeguard against invalid data (i.e. non-integer entries) in the parsing.   If the logic works as intended then a success message is generated.
 
 
-#Steps to Build and Run the application
+# Steps to Build and Run the application
 
 (assumes Maven and Java 8 is installed)
 
